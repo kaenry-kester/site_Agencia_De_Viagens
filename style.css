@@ -1,0 +1,49 @@
+/* CSS Reset */
+@font-face {
+  font-family: "Montesserrat";
+  src: url(../site_Agencia_De_Viagens/fonts/Montserrat-VariableFont_wght.ttf);
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /*
+CORES:
+- Background
+- Botoes
+- Cores de textos 
+*/
+  --background_Primary_Color: #ffffff;
+  --background_Secondary_Color: #f5f5f5;
+  --background_Tertiary_Color: #000000;
+
+  --button_Primary_Color: #8f0101;
+  --button_Secondary_Color: #b81515;
+
+  --text_Primary_Color: #222222;
+  --text_Secondary_Color: #ffffff;
+  --text_Hover_Color: #790404;
+
+  /*
+TEXTO:
+- Header 400
+- Footer 700
+- Body 400
+- Title 700
+- Cards 400 / 700
+*/
+  --title_Weight: 700;
+  --text_Weight: 400;
+}
+
+p {
+  font-family: "Montesserrat";
+  font-weight: var(--title_Weight);
+  color: var(--text_Primary_Color);
+}
