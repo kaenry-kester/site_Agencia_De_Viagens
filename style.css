@@ -57,3 +57,8 @@ h1 {
   font-weight: var(--title_Weight);
   color: var(--text_Secondary_Color);
 }
+
+.links {
+  text-decoration: none;
+  color: var(--text_Secondary_Color);
+}
