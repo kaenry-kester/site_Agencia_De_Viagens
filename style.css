@@ -42,8 +42,18 @@ TEXTO:
   --text_Weight: 400;
 }
 
+header {
+  background-color: var(--background_Tertiary_Color);
+}
+
 p {
   font-family: "Montesserrat";
   font-weight: var(--title_Weight);
   color: var(--text_Primary_Color);
+}
+
+h1 {
+  font-family: "Montesserrat";
+  font-weight: var(--title_Weight);
+  color: var(--text_Secondary_Color);
 }
