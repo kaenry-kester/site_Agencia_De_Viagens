@@ -1,0 +1,9 @@
+header {
+  background-color: var(--background_Tertiary_Color);
+}
+
+.links {
+  text-decoration: none;
+  color: var(--text_Secondary_Color);
+}
+

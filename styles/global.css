@@ -42,10 +42,6 @@ TEXTO:
   --text_Weight: 400;
 }
 
-header {
-  background-color: var(--background_Tertiary_Color);
-}
-
 p {
   font-family: "Montesserrat";
   font-weight: var(--title_Weight);
@@ -55,10 +51,5 @@ p {
 h1 {
   font-family: "Montesserrat";
   font-weight: var(--title_Weight);
-  color: var(--text_Secondary_Color);
-}
-
-.links {
-  text-decoration: none;
   color: var(--text_Secondary_Color);
 }
