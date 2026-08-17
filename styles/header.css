@@ -1,4 +1,5 @@
 header {
+  position: relative;
   background-color: var(--background_Tertiary_Color);
   display: flex;
   flex-direction: row;
@@ -9,6 +10,12 @@ header {
 
 input[type="checkbox"]:checked ~ nav {
   display: block;
+  position: absolute;
+  top: 90%;
+  left: 0;
+  padding: 0 0 15px 56px;
+  width: 100%;
+  background-color: var(--background_Tertiary_Color);
 }
 
 nav {
@@ -22,6 +29,11 @@ nav {
 .links {
   text-decoration: none;
   color: var(--text_Secondary_Color);
+  font-size: 22px;
+}
+
+.list li {
+  margin: 16px 0;
 }
 
 #logo {

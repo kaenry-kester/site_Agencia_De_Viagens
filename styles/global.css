@@ -12,6 +12,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Monteserrat";
+}
+
 :root {
   /*
 CORES:
@@ -40,16 +44,4 @@ TEXTO:
 */
   --title_Weight: 700;
   --text_Weight: 400;
-}
-
-p {
-  font-family: "Montesserrat";
-  font-weight: var(--title_Weight);
-  color: var(--text_Primary_Color);
-}
-
-h1 {
-  font-family: "Montesserrat";
-  font-weight: var(--title_Weight);
-  color: var(--text_Secondary_Color);
 }
