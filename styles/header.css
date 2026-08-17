@@ -22,7 +22,7 @@ nav {
   display: none;
 }
 
-.menu_Icone {
+.menu_Icon {
   margin-top: 24px;
 }
 
@@ -40,4 +40,30 @@ nav {
   display: inline-block;
   width: 68px;
   height: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .menu_Icon {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .menu_Icon label {
+    display: none;
+  }
+
+  .menu_Icon nav {
+    display: block;
+  }
+
+  .menu_icon li {
+    margin-top: 0;
+  }
+
+  .list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 0 170px;
+  }
 }
