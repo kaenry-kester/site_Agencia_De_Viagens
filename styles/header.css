@@ -1,5 +1,22 @@
 header {
   background-color: var(--background_Tertiary_Color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 38px 48px;
+}
+
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+}
+
+nav {
+  display: none;
+}
+
+.menu_Icone {
+  margin-top: 24px;
 }
 
 .links {
@@ -7,3 +24,8 @@ header {
   color: var(--text_Secondary_Color);
 }
 
+#logo {
+  display: inline-block;
+  width: 68px;
+  height: 64px;
+}
