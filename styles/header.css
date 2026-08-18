@@ -22,7 +22,7 @@ nav {
   display: none;
 }
 
-.menu_Icone {
+.menu_Icon {
   margin-top: 24px;
 }
 
@@ -40,4 +40,74 @@ nav {
   display: inline-block;
   width: 68px;
   height: 64px;
+}
+
+.logo_MobileTablet {
+  display: block;
+}
+
+.logo_Desktop {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .menu_Icon {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .menu_Icon label {
+    display: none;
+  }
+
+  .menu_Icon nav {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu_icon li {
+    margin-top: 0;
+  }
+
+  .list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 0 170px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .logo_Desktop {
+      width: 260px;
+      height: 68px;
+      margin-left: 20px;
+    }
+
+    .logo_Desktop {
+      display: block;
+      cursor: pointer;
+    }
+
+    .logo_MobileTablet {
+      display: none;
+    }
+
+    .list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 45px 0 1150px;
+      text-decoration: none;
+    }
+
+    .links {
+      text-decoration: none;
+      color: var(--text_Secondary_Color);
+      font-size: 25px;
+    }
+
+    .links:hover {
+      color: var(--text_Hover_Color);
+    }
+  }
 }
