@@ -76,7 +76,42 @@ nav {
     padding: 0 0 0 170px;
   }
 
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1400px) {
+    .logo_Desktop {
+      width: 260px;
+      height: 68px;
+      margin-left: 20px;
+    }
+
+    .logo_Desktop {
+      display: block;
+      cursor: pointer;
+    }
+
+    .logo_MobileTablet {
+      display: none;
+    }
+
+    .list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 30px 0 800px;
+      text-decoration: none;
+    }
+
+    .links {
+      text-decoration: none;
+      color: var(--text_Secondary_Color);
+      font-size: 20px;
+    }
+
+    .links:hover {
+      color: var(--text_Hover_Color);
+    }
+  }
+
+  @media screen and (min-width: 1920px) {
     .logo_Desktop {
       width: 260px;
       height: 68px;
